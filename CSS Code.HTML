@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction TO CSS</title>
+
+    <style>
+        h2{
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h2.tengah{
+            text-align: center;
+        }
+
+        .bg-dark{
+            background-color: darkred;
+        }
+
+        .text-white{
+            color: white;
+        }
+
+        #content {
+            background-color: lightgrey;
+            margin: 5px 10px 10px 5px;
+            padding: 5px;
+        }
+
+        .container .box p {
+            background-color: yellow;
+        }
+
+        .toUpperCase{
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            
+        }
+
+    </style>
+
+    <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+</html>
+<body>
+    <div id="content">
+    <h1>Welcome To JTMK</h1>
+    <h2 class="bg-dark text-white tengah">Selamat Datang Ke JTMK</h2>
+    <h2 class="tengah">Hello</h2>
+
+    <p style="color: blue; font-size: 20px;">Track Offered</p>
+
+    <p class="toUpperCase">Please Select Your Track</p>
+
+    <ul>
+        <li>Software and Deveplopment</li>
+        <li>Networking System</li>
+        <li>Data Visualization Track</li>
+    </ul>
+
+    <button type="submit">Apply Here!</button>
+    </div>
+
+    <footer>
+        Copyright 2025
+    </footer>
+
+    <div class="container">
+        <div class="box">
+        <p>Hello</p>
+        </div>
+        </div>
+
+</body>
+</html>
